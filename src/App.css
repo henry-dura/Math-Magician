@@ -4,51 +4,51 @@
   box-sizing: border-box;
 }
 
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
 
-.calculator{
-    width: 80%;
-    margin: 2rem auto;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    
+.calculator {
+  width: 80%;
+  margin: 2rem auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
 }
 
-button{
-    padding: 1.5rem;
-    width: 25%;
-    font-size: 1.5rem;
-    font-weight: 700;
+button {
+  padding: 1.5rem;
+  width: 25%;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
-button:hover{
-    opacity: 0.5;
-    cursor: pointer;
+
+button:hover {
+  opacity: 0.5;
+  cursor: pointer;
 }
-.screen{
-    text-align: right;
-    background-color: gray;
-    font-size: 2.5rem;
-    padding: 1rem;
+
+.screen {
+  text-align: right;
+  background-color: gray;
+  font-size: 2.5rem;
+  padding: 1rem;
 }
-.keys{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    
+
+.keys {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
-.zero{
+
+.zero {
+  width: 50%;
+}
+
+.operation {
+  background: orange;
+}
+
+@media screen and (min-width: 768px) {
+  .calculator {
     width: 50%;
-}
-.operation{
-    background: orange;
-    
-}
-
-@media screen and (min-width:768px){
-    .calculator{
-        width: 50%;
-        
-    }
-    
+  }
 }
