@@ -1,9 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import CalculatorUI from './components/Calculator';
 
 function App() {
   return (
-    
+    <CalculatorUI />
+
   );
 }
 
